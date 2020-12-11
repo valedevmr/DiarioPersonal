@@ -35,7 +35,7 @@ function revisarTema(){
 }
 
 /*
-revisa si hay un nombre por defecto y se guarda en localstorage, cas contrario se obtiene le tema y guardado el localstorage y se aplica
+revisa si hay un nombre por defecto y se guarda en localstorage, caso contrario se obtiene el tema y es gurdado en localstorage
 */
 
 function revisarNombre(){
