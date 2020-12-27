@@ -310,9 +310,46 @@ h3.sitename{
     width: 40%;
     justify-content: center;
 }
-@media (min-width:990px){
-    body{
-        display: none;
+@media (min-width:790px){
+    
+    .mt-5{
+        margin-top: 5%;
+    }
+    
+    .opciones a{
+        font-size: 1.4rem;
+    }
+    .nota p{
+        top: 30%;
+        font-size: 2rem;
+    }
+    .nota {
+        
+        width: 60% !important;
+        margin-bottom: 40px;
+        height: 250px!important;
+    }
+    .mt-6{
+        margin-top: 7% !important;
+    }
+    .container{
+        width: 70%!important;
+    }
+    .container-table {
+        height: 250px;
+        
+        width: 70%;
+        
+    }
+    #fototem.tamanioconfig:hover{
+        width: 75% !important;
+    
+        border: 3px solid !important;
+        cursor: pointer;
+    }
+    .btn:hover{
+        border: 3px solid !important;
+        cursor: pointer;
     }
 }
 @media (min-width:600px){
